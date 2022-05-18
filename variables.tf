@@ -75,7 +75,7 @@ variable "subnet_id" {
 
 variable "assign_public_ip" {
   type        = bool
-  default     = null
+  default     = true
   description = "Whether the VNIC should be assigned a public IP address."
 }
 
